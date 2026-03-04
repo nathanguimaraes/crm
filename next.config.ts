@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: process.cwd(),
   },
+  output: "standalone",
   async headers() {
     return [
       {
